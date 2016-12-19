@@ -1,0 +1,104 @@
+@import url("_global_helpers.css");
+
+/* Text Colors */
+
+.text-white, .text-white * { color: white; }
+.text-grey, .text-grey * { color: #989898; }
+.text-gold, .text-gold * { color: #FCB414; }
+.text-light-blue, .text-light-blue * { color: #8298BF; }
+.text-dark-blue, .text-dark-blue * { color: #16224A; }
+
+
+/* Background Colors */
+
+.background-white-50 {
+	background: rgba(237,237,237,0.66);
+}
+.background-dark-blue { background: #16224A; }
+.background-light-blue { background: #8298BF; }
+.background-white { background: white; }
+.background-light-gray { background: #d1d1d1 !important; }
+
+@media only screen and (max-width : 480px) {
+    .background-white-50-mobile {
+        background: rgba(237,237,237,0.66);
+    }
+}
+
+
+.background-black-transparent-gradient-50 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+.background-black-50-percent {
+    background: rgba(0,0,0,0.5);
+}
+
+
+/* Font CSS */
+
+.text-bitter { font-family: 'Bitter', serif; }
+.text-raleway { font-family: 'Raleway', sans-serif; }
+
+
+/* Border Colors */
+
+.border-bottom-gold-3 { border-bottom: solid 3px #FCB414; }
+.border-white { border: solid 1px white; }
+
+
+/* Shadow CSS */
+
+.navbar li a {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.primary-menu li a {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.primary-menu li a:hover {
+    color: white;
+    background: #FCB414;
+}
+
+
+
+/* Universal Styles */
+
+html, body {
+    font-family: 'Raleway', sans-serif;
+}
+
+input, textarea, select { border-radius: 0 !important; }
+
+
+
+/* Bootstrap Overrides */
+
+.section-carousel .carousel-indicators { all: unset; }
+
+.section-carousel .carousel-indicators .active { height: auto; }
+
+@media only screen and (max-width : 480px) {
+    .section-carousel .carousel-indicators .active { width: 100% !important; }
+}
+
+#header-carousel .carousel-control > span {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#header-carousel .carousel-inner > .item > img,
+#header-carousel .carousel-inner > .item > a > img {
+    width: 100%;
+    height: 700px;
+    margin: auto;
+}
