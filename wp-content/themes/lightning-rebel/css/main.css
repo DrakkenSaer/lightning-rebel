@@ -14,10 +14,8 @@
 .background-white-50 {
 	background: rgba(237,237,237,0.66);
 }
-.background-dark-blue { background: #16224A; }
-.background-light-blue { background: #8298BF; }
 .background-white { background: white; }
-.background-light-gray { background: #d1d1d1 !important; }
+.background-light-gray { background: #d1d1d1 }
 
 @media only screen and (max-width : 480px) {
     .background-white-50-mobile {
@@ -99,6 +97,19 @@ input, textarea, select { border-radius: 0 !important; }
 #header-carousel .carousel-inner > .item > img,
 #header-carousel .carousel-inner > .item > a > img {
     width: 100%;
-    height: 700px;
+    max-height: 700px;
     margin: auto;
+}
+
+@media (max-width: 991px) {
+    .text-center-sm { text-align: center; }
+}
+
+
+
+/* Homepage */
+
+@media (min-width: 992px) {
+    .site-header-main { margin-top: -600px; margin-bottom: 135px; }
+    #masthead > nav { margin-bottom: -60px; margin-top: 8px; z-index: 1001; }
 }

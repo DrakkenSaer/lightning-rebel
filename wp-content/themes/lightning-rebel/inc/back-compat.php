@@ -7,7 +7,7 @@
  * relies on many newer functions and markup changes introduced in 4.4.
  *
  * @package WordPress
- * @subpackage Pharmacy_lightningrebel
+ * @subpackage Lightning_Rebel
  * @since Lightning Rebel 1.0
  */
 

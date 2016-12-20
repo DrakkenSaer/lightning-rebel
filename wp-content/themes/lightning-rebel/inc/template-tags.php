@@ -5,7 +5,7 @@
  * Eventually, some of the functionality here could be replaced by core features.
  *
  * @package WordPress
- * @subpackage Pharmacy_lightningrebel
+ * @subpackage Lightning_Rebel
  * @since Lightning Rebel 1.0
  */
 

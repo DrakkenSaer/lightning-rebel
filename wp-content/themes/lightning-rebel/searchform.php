@@ -3,7 +3,7 @@
  * Template for displaying search forms in Lightning Rebel
  *
  * @package WordPress
- * @subpackage Pharmacy_lightningrebel
+ * @subpackage Lightning_Rebel
  * @since Lightning Rebel 1.0
  */
 ?>

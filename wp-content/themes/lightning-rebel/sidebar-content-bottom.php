@@ -3,7 +3,7 @@
  * The template for the content bottom widget areas on posts and pages
  *
  * @package WordPress
- * @subpackage Pharmacy_lightningrebel
+ * @subpackage Lightning_Rebel
  * @since Lightning Rebel 1.0
  */
 

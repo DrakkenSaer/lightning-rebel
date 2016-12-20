@@ -3,7 +3,7 @@
  * The template for displaying 404 pages (not found)
  *
  * @package WordPress
- * @subpackage Pharmacy_lightningrebel
+ * @subpackage Lightning_Rebel
  * @since Lightning Rebel 1.0
  */
 

@@ -3,7 +3,7 @@
  * The template part for displaying results in search pages
  *
  * @package WordPress
- * @subpackage Pharmacy_lightningrebel
+ * @subpackage Lightning_Rebel
  * @since Lightning Rebel 1.0
  */
 ?>

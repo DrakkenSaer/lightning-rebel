@@ -21,7 +21,7 @@
  * {@link https://codex.wordpress.org/Plugin_API}
  *
  * @package WordPress
- * @subpackage Pharmacy_lightningrebel
+ * @subpackage Lightning_Rebel
  * @since Lightning Rebel 1.0
  */
 

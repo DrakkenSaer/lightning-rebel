@@ -3,7 +3,7 @@
  * Template Name: Page Layout 1
 
  * @package WordPress
- * @subpackage Pharmacy_lightningrebel
+ * @subpackage Lightning_Rebel
  * @since Lightning Rebel 1.0
  */
 
@@ -76,14 +76,17 @@ get_header(); ?>
 			<?php endif; ?>
 
 			<?php if( have_rows('section_content') && $has_carousel == false ): ?>
-				<div class="container">
+				<div class="container-fluid">
 					<div class="row">
 
 			    	<?php while ( have_rows('section_content') ) : the_row(); ?>
 
 						<div class="<?php the_sub_field('container_class'); ?>">
 							<h3 class="<?php the_sub_field('content_title_class'); ?>"><?php the_sub_field('content_title'); ?></h3>
-							<?php the_sub_field('content_body'); ?>
+							
+							<div class="<?php the_sub_field('content_body_class'); ?>">
+								<?php the_sub_field('content_body'); ?>
+							</div>
 						</div>
 
 				    <?php endwhile; ?>

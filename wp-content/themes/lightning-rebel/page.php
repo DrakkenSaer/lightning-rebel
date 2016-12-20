@@ -7,7 +7,7 @@
  * other "pages" on your WordPress site will use a different template.
  *
  * @package WordPress
- * @subpackage Pharmacy_lightningrebel
+ * @subpackage Lightning_Rebel
  * @since Lightning Rebel 1.0
  */
 

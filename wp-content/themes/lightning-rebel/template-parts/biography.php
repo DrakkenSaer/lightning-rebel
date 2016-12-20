@@ -3,7 +3,7 @@
  * The template part for displaying an Author biography
  *
  * @package WordPress
- * @subpackage Pharmacy_lightningrebel
+ * @subpackage Lightning_Rebel
  * @since Lightning Rebel 1.0
  */
 ?>
