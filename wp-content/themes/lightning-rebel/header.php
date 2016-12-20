@@ -26,11 +26,11 @@
 		<div class="site-inner">
 	
 			<header id="masthead" class="site-header" role="banner">
-				<nav class="navbar width-100">
+				<nav class="navbar navbar-inverse buffer-padding-5">
 					<div class="container">
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
-							<button type="button" style="background: black;" class=" navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+							<button type="button" class=" navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
 								<span class="sr-only">Toggle navigation</span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
@@ -57,9 +57,8 @@
 			</header><!-- .site-header -->
 
 			<div id="sub-masthead-container" style="color: <?php the_field('header_font_color') ?>;">
-				<div class="background-black-transparent-gradient-50 width-100" style="height: 300px; position: absolute; top: 0; z-index: 1000;"></div>
-
 				<div id="header-carousel" class="carousel slide" data-ride="carousel">
+					<div class="background-black-transparent-gradient-50 width-100 hidden-sm hidden-xs" style="height: 300px; position: absolute; z-index: 1000;"></div>
 
 				<!-- Indicators -->
 				<?php if( have_rows('header_carousel_images') ): $index = 0; ?>

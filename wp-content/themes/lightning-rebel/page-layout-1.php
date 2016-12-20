@@ -13,14 +13,14 @@ get_header(); ?>
 	<main id="main" class="site-main" role="main">
 	<?php if( have_rows('section_layout') ): ?>
 		<div class="container-fluid">
-	    <?php while ( have_rows('section_layout') ) : the_row(); $has_carousel = false; ?>
+	    <?php while ( have_rows('section_layout') ) : the_row(); ?>
 			<section class="row <?php the_sub_field('section_class'); ?>" id="<?php the_sub_field('section_id'); ?>" style="background-color: <?php the_sub_field('section_background_color'); ?>;">
 
 			<?php if( get_sub_field('section_title') ): ?>
-				<div class="container">
+				<div class="container-fluid">
 					<div class="row">
-						<div class="col-md-11 col-md-offset-1">
-							<h2 class="text-gold text-uppercase text-bold text-bitter font-size-280"><?php the_sub_field('section_title'); ?></h2>
+						<div class="<?php the_sub_field('section_title_container_class'); ?>">
+							<h2 class="<?php the_sub_field('section_title_class'); ?>"><?php the_sub_field('section_title'); ?></h2>
 						</div>
 					</div>
 				</div>
@@ -75,7 +75,7 @@ get_header(); ?>
 				</div>
 			<?php endif; ?>
 
-			<?php if( have_rows('section_content') && $has_carousel == false ): ?>
+			<?php if( have_rows('section_content') && $has_carousel != true ): ?>
 				<div class="container-fluid">
 					<div class="row">
 
